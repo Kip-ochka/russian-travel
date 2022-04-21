@@ -1,0 +1,36 @@
+.intro {
+  max-width: 984px;
+  margin: 0 auto;
+}
+.intro__title {
+  font-size: 54px;
+  line-height: 1.01;
+  font-weight: 900;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-top: 96px;
+}
+
+.intro__text{
+  width: 70%;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5em;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.intro__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #fff;
+
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.5em;
+  letter-spacing: 0em;
+  text-align: left;
+}
