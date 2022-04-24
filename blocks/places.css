@@ -1,0 +1,145 @@
+.places {
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 92px 0 92px;
+
+}
+
+.places__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 80px;
+}
+
+.place {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  row-gap: 48px;
+  column-gap: 40px;
+  grid-template-columns: 1fr 1.05fr;
+}
+
+.place__title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  max-width: 460px;
+}
+
+.place__website {
+  align-self: end;
+}
+
+.place__url-heading {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 12px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #aaa;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.place__link{
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+.place__link:hover {
+ opacity: .8;
+}
+
+.place__image {
+  max-width: 460px;
+}
+
+.place__paragraph {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  max-width: 484px;
+}
+
+.place__paragraph:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .places {
+    max-width: 922px;
+  }
+  .place {
+    column-gap: 32px;
+  }
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    max-width: 720px;
+  }
+  .places__list {
+    gap: 73px;
+  }
+  .place {
+    column-gap: 28px;
+  }
+  .place__title {
+    font-size: 41px;
+    line-height: 1.1;
+  }
+  .place__image {
+    max-width: 340px;
+  }
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    max-width: 320px;
+    padding: 66px 0 66px;
+  }
+  .places__list {
+    gap: 50px;
+  }
+  .place {
+    row-gap: 32px;
+    grid-template-columns: 1fr;
+  }
+  .place__title {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+  .place__image {
+    max-width: 320px;
+  }
+  .place__paragraph {
+    font-size: 16px;
+  }
+}

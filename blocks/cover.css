@@ -1,0 +1,89 @@
+.cover {
+  background-image: url(../images/img/cover-background.png);
+  max-width: 1184px;
+  min-height: 740px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  margin: 0 auto;
+  padding: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.cover__overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  background-size: cover;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cover__overlay:hover {
+  opacity: .8;
+}
+
+.cover__title {
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.01;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  max-width: 560px;
+  z-index: 2;
+  text-decoration: none;
+}
+
+.cover__subtitle {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  max-width: 360px;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+  }
+  .cover__title {
+    font-size: 32px;
+    max-width: 288px;
+  }
+  .cover__subtitle {
+    font-size: 14px;
+    max-width: 288px;
+  }
+}
