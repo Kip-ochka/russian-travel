@@ -1,0 +1,16 @@
+.intro__article {
+  max-width: 690px;
+}
+@media screen and (max-width: 1023px) {
+  .intro__article {
+    margin: 0 auto;
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__article {
+    max-width: 288px;
+    margin: 0 auto;
+  }
+}
