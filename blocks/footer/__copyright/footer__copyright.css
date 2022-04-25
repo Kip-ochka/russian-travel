@@ -8,3 +8,9 @@
   letter-spacing: 0em;
   color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin: 0 auto 24px 16px;
+  }
+}
