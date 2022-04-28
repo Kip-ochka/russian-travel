@@ -20,10 +20,10 @@
 
 @font-face {
   font-family: "Inter", sans-serif;
-  src: local("Inter Bold"),
-    local("Inter-Bold"),
+  src: local("Inter bold"),
+    local("Inter-bold"),
     url(./Inter-Bold.woff2) format("woff2"),
     url(./Inter-Bold.woff) format("woff");
-    font-weight: Bold;
+    font-weight: bold;
     font-display: swap;
 }
