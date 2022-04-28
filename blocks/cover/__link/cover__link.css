@@ -26,9 +26,9 @@
   margin: 0;
   background-color: #2a2c2f;
   opacity: 0.3;
-
 }
-.cove__link:hover:before {
+
+.cover__link:hover:before {
   opacity: 0.8;
 }
 
