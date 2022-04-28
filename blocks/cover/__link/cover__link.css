@@ -1,4 +1,4 @@
-.cover__background {
+.cover__link {
   background-image: url(../../../images/img/cover-background.png);
   width: 100%;
   min-height: 100%;
@@ -15,7 +15,7 @@
   position: relative;
 }
 
-.cover__background:before {
+.cover__link:before {
   content: " ";
   display: block;
   top: 0;
@@ -28,12 +28,12 @@
   opacity: 0.3;
 
 }
-.cover__background:hover:before {
+.cove__link:hover:before {
   opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
-  .cover__background {
+  .cover__link {
     gap: 16px;
   }
 }
