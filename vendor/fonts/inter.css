@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", 'Helvetica Neue', Arial, sans-serif;
   src: local("Inter Black"),
     local("Inter-Black"),
     url(./Inter-Black.woff2) format("woff2"),
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", 'Helvetica Neue', Arial, sans-serif;
   src: local("Inter Regular"),
     local("Inter-Regular"),
     url(./Inter-Regular.woff2) format("woff2"),
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", 'Helvetica Neue', Arial, sans-serif;
   src: local("Inter bold"),
     local("Inter-bold"),
     url(./Inter-Bold.woff2) format("woff2"),
