@@ -2,7 +2,6 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
-  letter-spacing: 0em;
   text-align: left;
   color: #fff;
   padding: 0;
@@ -13,7 +12,7 @@
 
 @media screen and (max-width: 1023px) {
   .place__title {
-    font-size: 41px;
+    font-size: 42px;
     line-height: 1.1;
   }
 }
@@ -21,6 +20,5 @@
 @media screen and (max-width: 767px) {
   .place__title {
     font-size: 32px;
-    line-height: 1.1;
   }
 }
