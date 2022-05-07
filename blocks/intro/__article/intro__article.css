@@ -10,6 +10,12 @@
 
 @media screen and (max-width: 767px) {
   .intro__article {
+    max-width: 343px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .intro__article {
     max-width: 288px;
   }
 }

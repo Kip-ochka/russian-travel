@@ -2,6 +2,8 @@
   max-width: 1184px;
   margin: 0 auto;
   padding-top: 92px;
+  justify-content: center;
+  display: flex;
 }
 
 @media screen and (max-width: 1279px) {
@@ -19,7 +21,14 @@
 
 @media screen and (max-width: 767px) {
   .photo-grid {
-    max-width: 288px;
+    max-width: 375px;
     padding-top: 64px;
+
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .photo-grid {
+    max-width: 288px;
   }
 }

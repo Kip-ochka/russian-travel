@@ -26,6 +26,12 @@
 
 @media screen and (max-width: 767px) {
   .page {
+    min-width: 375px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .page {
     min-width: 320px;
   }
 }
