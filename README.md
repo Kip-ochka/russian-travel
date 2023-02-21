@@ -9,6 +9,6 @@
 
 **Описание**
 
-Этот адаптивный сайт о путешествиях по России я сделал во время прохождения курса "Веб-Разработчик" в Яндекс.Практикуме. Этот проект выложен по [ссылке с помощью GitHub](https://kip-ochka.github.io/russian-travel/index.html).
+Этот адаптивный сайт о путешествиях по России. Этот проект выложен по [ссылке с помощью GitHub](https://kip-ochka.github.io/russian-travel/index.html).
 
 https://kip-ochka.github.io/russian-travel/index.html
